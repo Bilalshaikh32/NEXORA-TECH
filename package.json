@@ -1,9 +1,15 @@
+
 {
   "name": "nexora-tech-store",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "scripts": {"dev":"vite --host 0.0.0.0", "build":"vite build", "preview":"vite preview --host 0.0.0.0", "test:logic":"node --test tests/*.test.js"},
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:logic": "node --test tests/shop.test.js tests/validation.test.js tests/assets.test.js"
+  },
   "dependencies": {
     "framer-motion": "^11.18.2",
     "lucide-react": "^0.468.0",
